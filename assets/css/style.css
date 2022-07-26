@@ -1,0 +1,650 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+nav {
+  z-index: 9999;
+}
+
+.navbar {
+  padding: 25px;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: 75px;
+  margin-left: 65px;
+}
+
+.nav-item {
+  margin: 20px 20px;
+}
+
+.nav-item a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero-section {
+  position: relative;
+  margin-top: -135px;
+}
+
+/* Product */
+.product {
+  margin: 0 auto;
+  padding: 76px 5%;
+}
+
+.title {
+  text-align: center;
+}
+
+.title p {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.7em;
+  font-weight: 600;
+}
+
+.title h2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #2d2d2d;
+}
+
+.product__content {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.product__content img {
+  width: 820px;
+  height: 643px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product__content h3 {
+  font-size: 66px;
+  line-height: 80px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+
+.product__content p {
+  font-size: 26px;
+  color: #6d6d6d;
+  font-weight: 500;
+  margin-top: 31px;
+}
+
+.product__content button {
+  background-color: #ff9921;
+  border-radius: 5px;
+  width: 240px;
+  height: 70px;
+  border: none;
+  margin-top: 35px;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.product__content-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.product__content-reverse img {
+  width: 820px;
+  height: 643px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product__content-reverse h3 {
+  font-size: 66px;
+  line-height: 80px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+
+.product__content-reverse p {
+  font-size: 26px;
+  color: #6d6d6d;
+  font-weight: 500;
+  margin-top: 31px;
+}
+
+.product__content-reverse button {
+  background-color: #ff9921;
+  border-radius: 5px;
+  width: 240px;
+  height: 70px;
+  border: none;
+  margin-top: 35px;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  background-image: url('../image/banner/banner2.png');
+  background-size: cover;
+  margin-top: 150px;
+  padding: 135px;
+}
+
+iframe {
+  width: 960px;
+  height: 576px;
+}
+
+/* footer */
+footer {
+  background-color: #fff8ef;
+  margin-top: 60px;
+  padding: 50px 5%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: 200px;
+  height: 75px;
+  margin-bottom: 30px;
+}
+
+.footer-content h6 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.address {
+  font-size: 26px;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+
+.text-admin {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -9px;
+  color: #2d2d2d;
+}
+
+.logo-medsos i {
+  width: 46px;
+  height: 46px;
+  color: #3d3d3d;
+  margin: 25px 20px 0 0;
+}
+
+/* .fa-instagram,
+.fa-youtube,
+.fa-twitter {
+} */
+
+.subtitle-footer {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.footer-content p {
+  font-size: 26px;
+  font-weight: 600px;
+  color: #2d2d2d;
+}
+
+/* Media query */
+@media (max-width: 1399.98px) {
+  .product__content {
+    margin-top: 100px;
+  }
+
+  .product__content img {
+    width: 700px;
+    height: 580px;
+  }
+
+  .product__content h3 {
+    font-size: 58px;
+  }
+
+  .product__content p {
+    font-size: 21px;
+    margin-top: 10px;
+  }
+
+  .product__content button {
+    width: 220px;
+    height: 60px;
+    margin-top: 35px;
+    font-size: 21px;
+  }
+
+  .product__content-reverse {
+    margin-top: 100px;
+  }
+
+  .product__content-reverse img {
+    width: 700px;
+    height: 580px;
+  }
+
+  .product__content-reverse h3 {
+    font-size: 58px;
+  }
+
+  .product__content-reverse p {
+    font-size: 21px;
+    margin-top: 10px;
+  }
+
+  .product__content-reverse button {
+    width: 220px;
+    height: 60px;
+    margin-top: 35px;
+    font-size: 21px;
+  }
+
+  iframe {
+    width: 720px;
+    height: 486px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .product__content {
+    margin-top: 80px;
+  }
+
+  .product__content img {
+    width: 600px;
+    height: 480px;
+  }
+
+  .product__content h3 {
+    margin-top: -10px;
+    font-size: 44px;
+  }
+
+  .product__content p {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+
+  .product__content button {
+    width: 200px;
+    height: 52px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+
+  .product__content-reverse {
+    margin-top: 80px;
+  }
+
+  .product__content-reverse img {
+    width: 600px;
+    height: 480px;
+  }
+
+  .product__content-reverse h3 {
+    margin-top: -10px;
+    font-size: 44px;
+  }
+
+  .product__content-reverse p {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+
+  .product__content-reverse button {
+    width: 200px;
+    height: 52px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+
+  iframe {
+    width: 660px;
+    height: 420px;
+  }
+
+  .logo img {
+    width: 160px;
+    height: 52px;
+    margin-bottom: 25px;
+  }
+
+  .footer-content h6 {
+    font-size: 24px;
+  }
+
+  .address {
+    font-size: 24px;
+  }
+
+  .text-admin {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .subtitle-footer {
+    font-size: 24px;
+  }
+
+  .footer-content p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 920px) {
+  .navbar {
+    padding: 15px;
+    background-color: #fff8ef;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    height: 40px;
+    margin-left: 35px;
+  }
+
+  .nav-item a {
+    color: #2d2d2d;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .hero-section {
+    margin-top: 0px;
+  }
+
+  .product {
+    margin: 0 auto;
+    padding: 40px 5%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .title p {
+    font-size: 12px;
+  }
+
+  .title h2 {
+    font-size: 32px;
+    margin-top: -10px;
+  }
+
+  .product__content {
+    margin-top: 60px;
+  }
+
+  .product__content img {
+    width: 400px;
+    height: 320px;
+  }
+
+  .product__content h3 {
+    margin-top: -20px;
+    font-size: 30px;
+  }
+
+  .product__content p {
+    font-size: 12px;
+    margin-top: -20px;
+  }
+
+  .product__content button {
+    width: 160px;
+    height: 42px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .product__content-reverse {
+    margin-top: 60px;
+  }
+
+  .product__content-reverse img {
+    width: 400px;
+    height: 320px;
+  }
+
+  .product__content-reverse h3 {
+    margin-top: -20px;
+    font-size: 30px;
+  }
+
+  .product__content-reverse p {
+    font-size: 12px;
+    margin-top: -20px;
+  }
+
+  .product__content-reverse button {
+    width: 160px;
+    height: 42px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  aside {
+    padding: 80px;
+  }
+
+  iframe {
+    width: 500px;
+    height: 300px;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .footer-content h6 {
+    font-size: 16px;
+  }
+
+  .address {
+    font-size: 16px;
+  }
+
+  .text-admin {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .subtitle-footer {
+    font-size: 16px;
+  }
+
+  .footer-content p {
+    font-size: 16px;
+  }
+
+  .logo-medsos i {
+    width: 46px;
+    height: 46px;
+    color: #3d3d3d;
+    margin: 10px 5px 0 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .navbar {
+    padding: 8px;
+    background-color: #fff8ef;
+  }
+
+  .navbar-brand img {
+    width: 60px;
+    height: 25px;
+    margin-left: 15px;
+  }
+
+  .nav-item a {
+    color: #2d2d2d;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .hero-section {
+    margin-top: 0px;
+  }
+
+  .hero-section img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .product {
+    margin: 0 auto;
+    padding: 40px 5%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .title p {
+    font-size: 12px;
+  }
+
+  .title h2 {
+    font-size: 32px;
+    margin-top: -15px;
+    margin-bottom: -30px;
+  }
+
+  .product__content {
+    margin-top: 70px;
+  }
+
+  .product__content img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .product__content h3 {
+    margin-top: -20px;
+    font-size: 30px;
+  }
+
+  .product__content p {
+    font-size: 12px;
+    margin-top: -20px;
+  }
+
+  .product__content button {
+    width: 160px;
+    height: 42px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .product__content-reverse {
+    margin-top: 70px;
+  }
+
+  .product__content-reverse img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .product__content-reverse h3 {
+    margin-top: -20px;
+    font-size: 30px;
+  }
+
+  .product__content-reverse p {
+    font-size: 12px;
+    margin-top: -20px;
+  }
+
+  .product__content-reverse button {
+    width: 160px;
+    height: 42px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  aside {
+    padding: 30px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 150px;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .footer-content h6 {
+    font-size: 16px;
+  }
+
+  .address {
+    font-size: 16px;
+  }
+
+  .text-admin {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .subtitle-footer {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .footer-content p {
+    font-size: 16px;
+  }
+
+  .logo-medsos i {
+    width: 46px;
+    height: 46px;
+    color: #3d3d3d;
+    margin: 10px 5px 0 0;
+  }
+}
