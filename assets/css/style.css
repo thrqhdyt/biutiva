@@ -75,18 +75,18 @@ nav {
 
 .product__content img {
   width: 820px;
-  height: 643px;
+  height: 820px;
   border-radius: 10px;
-  object-fit: cover;
-  object-position: center;
+  /* object-fit: cover;
+  object-position: center; */
 }
 
 .product__content h3 {
-  font-size: 66px;
-  line-height: 80px;
+  font-size: 58px;
+  line-height: 70.7px;
   text-transform: capitalize;
   font-weight: 700;
-  color: #3d3d3d;
+  color: #d4aa00;
 }
 
 .product__content p {
@@ -96,16 +96,9 @@ nav {
   margin-top: 31px;
 }
 
-.product__content button {
-  background-color: #ff9921;
-  border-radius: 5px;
-  width: 240px;
-  height: 70px;
-  border: none;
-  margin-top: 35px;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 5px;
+.product__content p span {
+  color: #d4aa00;
+  font-weight: 700;
 }
 
 .product__content-reverse {
@@ -117,18 +110,18 @@ nav {
 
 .product__content-reverse img {
   width: 820px;
-  height: 643px;
+  height: 820px;
   border-radius: 10px;
   object-fit: cover;
   object-position: center;
 }
 
 .product__content-reverse h3 {
-  font-size: 66px;
-  line-height: 80px;
+  font-size: 58px;
+  line-height: 70.7px;
   text-transform: capitalize;
   font-weight: 700;
-  color: #3d3d3d;
+  color: #d4aa00;
 }
 
 .product__content-reverse p {
@@ -138,16 +131,9 @@ nav {
   margin-top: 31px;
 }
 
-.product__content-reverse button {
-  background-color: #ff9921;
-  border-radius: 5px;
-  width: 240px;
-  height: 70px;
-  border: none;
-  margin-top: 35px;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 5px;
+.product__content-reverse p span {
+  color: #d4aa00;
+  font-weight: 700;
 }
 
 aside {
@@ -162,6 +148,119 @@ aside {
 iframe {
   width: 960px;
   height: 576px;
+}
+
+/* about  */
+.about {
+  margin: 0 auto;
+  padding: 65px 5%;
+}
+
+.title-about {
+  text-align: center;
+}
+
+.title-about h2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+.about-positif h3 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3d3d3d;
+}
+
+.about-positif h3 span {
+  color: #d4aa00;
+  text-transform: uppercase;
+}
+
+.about-negatif h3 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 38px;
+  color: #3d3d3d;
+}
+
+.about-negatif h3 span {
+  color: #f44949;
+  text-transform: uppercase;
+}
+
+.about-line {
+  height: 16px;
+  border-radius: 8px;
+  background-color: #d4aa00;
+  margin-bottom: -10px;
+  margin-top: 30px;
+}
+
+.about-line2 {
+  height: 16px;
+  border-radius: 8px;
+  background-color: #bdbdbd;
+  margin-bottom: -10px;
+  margin-top: 30px;
+}
+
+.about__list-profit {
+  display: flex;
+  padding: 25px 30px;
+  margin-top: 30px;
+  border-radius: 16px;
+  background: #f1f1f1;
+}
+
+.fa-check-circle {
+  font-size: 52px;
+  color: #d4aa00;
+  margin-right: 12px;
+}
+
+.fa-times-circle {
+  font-size: 52px;
+  color: #f44949;
+  margin-right: 12px;
+}
+
+.list__text-title {
+  font-size: 36px;
+  line-height: 43.88px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.list__text-desc {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.title-about button {
+  background-color: #d4aa00;
+  color: white;
+  text-transform: uppercase;
+  width: 625px;
+  padding: 15px;
+  margin: 30px 0;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 /* footer */
@@ -208,11 +307,6 @@ footer {
   margin: 25px 20px 0 0;
 }
 
-/* .fa-instagram,
-.fa-youtube,
-.fa-twitter {
-} */
-
 .subtitle-footer {
   font-size: 26px;
   font-weight: 700;
@@ -245,13 +339,6 @@ footer {
     margin-top: 10px;
   }
 
-  .product__content button {
-    width: 220px;
-    height: 60px;
-    margin-top: 35px;
-    font-size: 21px;
-  }
-
   .product__content-reverse {
     margin-top: 100px;
   }
@@ -270,13 +357,6 @@ footer {
     margin-top: 10px;
   }
 
-  .product__content-reverse button {
-    width: 220px;
-    height: 60px;
-    margin-top: 35px;
-    font-size: 21px;
-  }
-
   iframe {
     width: 720px;
     height: 486px;
@@ -291,6 +371,8 @@ footer {
   .product__content img {
     width: 600px;
     height: 480px;
+    object-fit: cover;
+    object-position: center;
   }
 
   .product__content h3 {
@@ -303,13 +385,6 @@ footer {
     margin-top: 5px;
   }
 
-  .product__content button {
-    width: 200px;
-    height: 52px;
-    margin-top: 20px;
-    font-size: 17px;
-  }
-
   .product__content-reverse {
     margin-top: 80px;
   }
@@ -317,6 +392,8 @@ footer {
   .product__content-reverse img {
     width: 600px;
     height: 480px;
+    object-fit: cover;
+    object-position: center;
   }
 
   .product__content-reverse h3 {
@@ -327,13 +404,6 @@ footer {
   .product__content-reverse p {
     font-size: 17px;
     margin-top: 5px;
-  }
-
-  .product__content-reverse button {
-    width: 200px;
-    height: 52px;
-    margin-top: 20px;
-    font-size: 17px;
   }
 
   iframe {
@@ -415,7 +485,9 @@ footer {
 
   .product__content img {
     width: 400px;
-    height: 320px;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
   }
 
   .product__content h3 {
@@ -428,20 +500,15 @@ footer {
     margin-top: -20px;
   }
 
-  .product__content button {
-    width: 160px;
-    height: 42px;
-    margin-top: 5px;
-    font-size: 12px;
-  }
-
   .product__content-reverse {
     margin-top: 60px;
   }
 
   .product__content-reverse img {
     width: 400px;
-    height: 320px;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
   }
 
   .product__content-reverse h3 {
@@ -452,13 +519,6 @@ footer {
   .product__content-reverse p {
     font-size: 12px;
     margin-top: -20px;
-  }
-
-  .product__content-reverse button {
-    width: 160px;
-    height: 42px;
-    margin-top: 5px;
-    font-size: 12px;
   }
 
   aside {
@@ -558,7 +618,9 @@ footer {
 
   .product__content img {
     width: 400px;
-    height: 300px;
+    height: 360px;
+    object-fit: cover;
+    object-position: right;
   }
 
   .product__content h3 {
@@ -571,20 +633,15 @@ footer {
     margin-top: -20px;
   }
 
-  .product__content button {
-    width: 160px;
-    height: 42px;
-    margin-top: 5px;
-    font-size: 12px;
-  }
-
   .product__content-reverse {
     margin-top: 70px;
   }
 
   .product__content-reverse img {
     width: 400px;
-    height: 300px;
+    height: 360px;
+    object-fit: cover;
+    object-position: left;
   }
 
   .product__content-reverse h3 {
@@ -595,13 +652,6 @@ footer {
   .product__content-reverse p {
     font-size: 12px;
     margin-top: -20px;
-  }
-
-  .product__content-reverse button {
-    width: 160px;
-    height: 42px;
-    margin-top: 5px;
-    font-size: 12px;
   }
 
   aside {
