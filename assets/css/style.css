@@ -77,8 +77,6 @@ nav {
   width: 820px;
   height: 820px;
   border-radius: 10px;
-  /* object-fit: cover;
-  object-position: center; */
 }
 
 .product__content h3 {
@@ -249,15 +247,13 @@ iframe {
   text-align: left;
 }
 
-.title-about button {
+.title-about a {
   background-color: #d4aa00;
   color: white;
   text-transform: uppercase;
   width: 625px;
-  padding: 15px;
-  margin: 30px 0;
-  justify-content: center;
-  border: none;
+  padding: 20px 40px;
+  text-decoration: none;
   border-radius: 50px;
   font-size: 36px;
   font-weight: 700;
@@ -360,6 +356,17 @@ footer {
   iframe {
     width: 720px;
     height: 486px;
+  }
+
+  .about-negatif h3 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 42px;
+    margin-bottom: 65px;
+    color: #3d3d3d;
   }
 }
 
@@ -485,19 +492,20 @@ footer {
 
   .product__content img {
     width: 400px;
-    height: 360px;
+    height: 400px;
     object-fit: cover;
     object-position: center;
   }
 
   .product__content h3 {
-    margin-top: -20px;
+    margin-top: 10px;
     font-size: 30px;
+    line-height: normal;
   }
 
   .product__content p {
-    font-size: 12px;
-    margin-top: -20px;
+    font-size: 14px;
+    margin-top: 12px;
   }
 
   .product__content-reverse {
@@ -506,19 +514,20 @@ footer {
 
   .product__content-reverse img {
     width: 400px;
-    height: 360px;
+    height: 400px;
     object-fit: cover;
     object-position: center;
   }
 
   .product__content-reverse h3 {
-    margin-top: -20px;
+    margin-top: 10px;
     font-size: 30px;
+    line-height: normal;
   }
 
   .product__content-reverse p {
-    font-size: 12px;
-    margin-top: -20px;
+    font-size: 14px;
+    margin-top: 12px;
   }
 
   aside {
@@ -528,6 +537,83 @@ footer {
   iframe {
     width: 500px;
     height: 300px;
+  }
+
+  .title-about h2 {
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .about-positif h3 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .about-negatif h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin-top: 42px;
+    margin-bottom: 25px;
+  }
+
+  .about-line {
+    height: 14px;
+    border-radius: 6px;
+    background-color: #d4aa00;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .about-line2 {
+    height: 14px;
+    border-radius: 6px;
+    background-color: #bdbdbd;
+    margin-bottom: 00px;
+    margin-top: 10px;
+  }
+
+  .about__list-profit {
+    display: flex;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-radius: 14px;
+    background: #f1f1f1;
+  }
+
+  .fa-check-circle {
+    font-size: 32px;
+    color: #d4aa00;
+    margin-right: 12px;
+  }
+
+  .fa-times-circle {
+    font-size: 32px;
+    color: #f44949;
+    margin-right: 12px;
+  }
+
+  .list__text-title {
+    font-size: 22px;
+    line-height: normal;
+  }
+
+  .list__text-desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .title-about a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .logo img {
@@ -624,13 +710,13 @@ footer {
   }
 
   .product__content h3 {
-    margin-top: -20px;
+    margin-top: 5px;
     font-size: 30px;
   }
 
   .product__content p {
-    font-size: 12px;
-    margin-top: -20px;
+    font-size: 14px;
+    margin-top: 10px;
   }
 
   .product__content-reverse {
@@ -645,13 +731,13 @@ footer {
   }
 
   .product__content-reverse h3 {
-    margin-top: -20px;
+    margin-top: 5px;
     font-size: 30px;
   }
 
   .product__content-reverse p {
     font-size: 12px;
-    margin-top: -20px;
+    margin-top: 10px;
   }
 
   aside {
@@ -661,6 +747,83 @@ footer {
   iframe {
     width: 100%;
     height: 150px;
+  }
+
+  .title-about h2 {
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .about-positif h3 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .about-negatif h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin-top: 42px;
+    margin-bottom: 0px;
+  }
+
+  .about-line {
+    height: 14px;
+    border-radius: 6px;
+    background-color: #d4aa00;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .about-line2 {
+    height: 14px;
+    border-radius: 6px;
+    background-color: #bdbdbd;
+    margin-bottom: 00px;
+    margin-top: 10px;
+  }
+
+  .about__list-profit {
+    display: flex;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-radius: 14px;
+    background: #f1f1f1;
+  }
+
+  .fa-check-circle {
+    font-size: 32px;
+    color: #d4aa00;
+    margin-right: 12px;
+  }
+
+  .fa-times-circle {
+    font-size: 32px;
+    color: #f44949;
+    margin-right: 12px;
+  }
+
+  .list__text-title {
+    font-size: 22px;
+    line-height: normal;
+  }
+
+  .list__text-desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .title-about a {
+    text-transform: uppercase;
+    padding: 7px 14px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .logo img {
